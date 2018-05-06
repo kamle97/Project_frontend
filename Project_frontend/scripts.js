@@ -92,6 +92,7 @@ $(document).ready(function () {
 
 
     // --- table with sorting --- //
+    
     console.log($(this).find("#panel"));
 
     jQuery.get('table.txt', function(data) {
