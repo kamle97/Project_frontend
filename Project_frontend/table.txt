@@ -1,0 +1,61 @@
+Kraj	Nazwa stadionu	Klub	Rok otwarcia	Pojemność
+Anglia	Emirates Stadium	Arsenal Londyn	2006	60355
+Anglia	Stamford Bridge	Chelsea F.C.	1877	41841
+Anglia	Goodison Park	Everton F.C.	1892	40569
+Anglia	King Power Stadium	Leicester City F.C.	2002	32500
+Anglia	Anfield	Liverpool F.C.	1884	54074
+Anglia	Etihad Stadium	Manchester City	2002	55097
+Anglia	Old Trafford	Manchester United	1910	75797
+Anglia	bet365 Stadium	Stoke City F.C.	1997	28383
+Anglia	Wembley	Tottenham Hotspur	2007	90000
+Anglia	Boleyn Ground	West Ham United	1904	35647
+Francja	Stade Matmut-Atlantique	FC Girondins de Bordeaux	2015	42115
+Francja	Stade Felix-Bollaert	RC Lens	1932	41233
+Francja	Stade Pierre-Mauroy	Lille OSC	2012	50157
+Francja	Parc Olympique Lyonnais (Groupama Arena)	Olympique Lyon	2016	59186
+Francja	Stade Velodrome	Olympique Marsylia	1937	67394
+Francja	Stade de la Beaujoire	FC Nantes	1984	38285
+Francja	Allianz Riviera	OGC Nice	2013	35624
+Francja	Parc des Princes	Paris Saint-Germain	1897	48527
+Francja	Stade Geoffroy-Guichard	AS Saint-Etienne	1931	41965
+Francja	Stadium Muncipal	Toulouse FC	1937	35472
+Hiszpania	Wanda Metropolitano	Atletico Madryt	2017	68000
+Hiszpania	Camp Nou	FC Barcelona	1957	99354
+Hiszpania	Estadio Benito Villamarin	Real Betis	1929	51132
+Hiszpania	San Mames	Athletic Bilbao	2013	53289
+Hiszpania	Estadio de Gran Canaria	UD Las Palmas	2003	32400
+Hiszpania	Estadio Santiago Bernabeu	Real Madryt F.C.	1947	81044
+Hiszpania	Estadio Ramon Sanchez Pizjuan	Sevilla FC	1957	45500
+Hiszpania	Estadio Anoeta	Real Sociedad	1993	32076
+Hiszpania	Estadio Ciutat de Valencia	Levante UD	1969	25354
+Hiszpania	Estadio de la Ceramica	Villareal CF	1923	25000
+Niemcy	Signal Iduna Park	Borussia Dortmund	1974	81359
+Niemcy	Esprit Arena	Fortuna Dusseldorf	2004	51500
+Niemcy	Commerzbank-Arena	Eintracht Frankfurt	1925	52300
+Niemcy	Volksparstadion	Hamburger SV	1953	57274
+Niemcy	Olympiastadion Berlin	Hertha BSC	1936	74228
+Niemcy	Allianz Arena	FC Bayern Munchen	2005	75024
+Niemcy	Stadion im Borussia-Park	Borussia Moenchengladbach	2004	54067
+Niemcy	Max-Morlock-Stadium	1. FC Nuremberg	1928	50000
+Niemcy	Veltins Arena	FC Schalke 04	2001	61673
+Niemcy	Mercedes-Benz Arena	VfB Stuttgart	1933	60441
+Polska	Stadion Miejski w Białymstoku	Jagiellonia Białystok	1972	22386
+Polska	Stadion im. Zdzisława Krzyszkowiaka	CWZS Zawisza Bydgoszcz	1957	20247
+Polska	Stadion Cracovii im. Józefa Piłsudzkiego	Cracovia Kraków	1912	15114
+Polska	Stadion Energa Gdańsk	Lechia Gdańsk	2011	41620
+Polska	Stadion Wojska Polskiego	Legia Warszawa	1930	31103
+Polska	INEA Stadion	KKS Lech Poznań	2010	43269
+Polska	Stadion Miejski im. Floriana Krygiera	Pogoń Szczecin	1925	18027
+Polska	Stadion Miejski im. Henryka Reymana	Wisła Kraków	1953	33326
+Polska	Stadion Miejski we Wrocławiu	Śląsk Wrocław	2011	45105
+Polska	Stadion im. Ernesta Pohla	Górnik Zabrze	1934	24563
+Włochy	Stadio San Nicola	AS Bari	1990	58270
+Włochy	Stadio Renato Dall'Ara	Bologna FC	1927	39444
+Włochy	Stadio Artemio Franchi	ACF Fiorentina	1931	47495
+Włochy	Stadio Luigi Ferraris	UC Sampdoria & Genoa CFC	1911	41917
+Włochy	Allianz Stadium	Juventus F.C.	2011	41254
+Włochy	Stadio Via del Mare	US Lecce	1966	33876
+Włochy	San Siro	A.C. Milan & Inter Mediolan	1926	80018
+Włochy	Stadio San Paolo	SSC Napoli	1959	65000
+Włochy	Stadio Olimpico	Lazio Rzym & AS Roma	1937	70634
+Włochy	Stadio Marcantionio Bentegodi	Chievo Werona & Hellas Werona	1963	45000

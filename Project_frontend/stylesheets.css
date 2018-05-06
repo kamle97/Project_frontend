@@ -1,0 +1,106 @@
+.accordion, .england, .germany, .italy, .poland, .france, .spain, .world {
+    background-image: url("graphics/grass.jpg");
+    color: #F2BBBB;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.england:hover{
+    background-image: url("graphics/british_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.germany:hover{
+    background-image: url("graphics/german_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.france:hover{
+    background-image: url("graphics/french_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.poland:hover{
+    background-image: url("graphics/polish_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.spain:hover{
+    background-image: url("graphics/spanish_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.italy:hover{
+    background-image: url("graphics/italian_flag.gif");
+    height: 200px;
+    color: #ffffff;
+}
+
+.world:hover{
+    height: 200px;
+    color: #FFFF00;
+}
+
+.title {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    padding: 0 18px;
+    color: black;
+    font-weight: normal;
+}
+
+/* parallel scrolling panels */
+
+.panelENG{
+    background: lightgreen url("graphics/premier_league.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.panelFRA{
+    background: lightgreen url("graphics/league1.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.panelSPA{
+    background: lightgreen url("graphics/laa_liga.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.panelGER{
+    background: lightgreen url("graphics/bundesliga.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.panelPOL{
+    background: lightgreen url("graphics/ekstraklasa.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+
+.panelITA{
+    background: lightgreen url("graphics/serieA.png") no-repeat fixed center;
+    background-size: auto;
+    font-size: 18px;
+    color: black;
+}
+

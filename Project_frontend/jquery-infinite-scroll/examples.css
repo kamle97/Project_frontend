@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+body{
+	font: normal 14px/18px Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+.menu{
+	text-align: center;
+	margin: 20px auto 30px; 
+	width: 800px;
+}
+.menu a{
+	color: #0099FF;
+}
+.row-item{
+	overflow: hidden;
+	margin: 0 0 20px;
+	padding: 20px;
+	border-bottom: dotted 1px #ccc;
+}
+.row-item img{
+	background-color: #fff;
+	border: solid 1px #ccc;
+	padding: 1px;
+	margin: 0 10%;
+	vertical-align: middle;
+}
+.container{
+	width: 800px; 
+	height: 600px; 
+	margin: 0 auto; 
+	background-color: #eee;
+	border: solid 1px #ccc;
+	overflow: auto;
+	padding: 3px 0;
+}

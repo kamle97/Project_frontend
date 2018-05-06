@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Players Database</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets.css">
+    <link rel="stylesheet" type="text/css" href="tablesorter-master/themes/green/style.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link href="jquery-infinite-scroll/pjInfiniteScroll.css" rel="stylesheet">
+    <script src="jquery-infinite-scroll/jquery-1.7.min.js"></script>
+    <script src="jquery-infinite-scroll/jquery.pjInfiniteScroll.js"></script>
+    <script type="text/javascript" src="tablesorter-master/jquery-latest.js"></script>
+    <script type="text/javascript" src="tablesorter-master/jquery.tablesorter.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+<div class="title">
+    <h1>Stadiony na świecie</h1>
+    <h5>Zdjęcia pochodzą ze stron wikipedii</h5>
+</div>
+<div class="container">
+    <div class="accordion">
+    <button class="england" id="england">Liga angielska</button>
+        <div class="panelENG" id="panelENG" align="center">
+            <ul id="stadiumsENG" style="list-style-type: none">
+                <li><h2>Stadion Arsenalu - Emirates Stadium</h2><br><img src="graphics/eng/arsenal.jpg"></li>
+                <li><h2>Stadion Chelsea - Stamford Bridge</h2><br><img src="graphics/eng/chelsea.jpg"></li>
+                <li><h2>Stadion Evertonu - Goodison Park</h2><br><img src="graphics/eng/everton.JPG"></li>
+                <li><h2>Stadion Leicester - King Power Stadium</h2><br><img src="graphics/eng/leicester.jpg"></li>
+                <li><h2>Stadion Liverpoolu - Anfield</h2><br><img src="graphics/eng/liverpool.jpg"></li>
+                <li><h2>Stadion Manchesteru City - Etihad Stadium</h2><br><img src="graphics/eng/manchester_city.jpg"></li>
+                <li><h2>Stadion Manchesteru United - Old Trafford</h2><br><img src="graphics/eng/manchester_united.jpg"></li>
+                <li><h2>Stadion Stoke City - bet365 Stadium</h2><br><img src="graphics/eng/stoke.jpg"></li>
+                <li><h2>Stadion Tottenhamu Hotspur - Wembley</h2><br><img src="graphics/eng/tottenham.jpg"></li>
+                <li><h2>Stadion West Ham United - Boleyn Ground</h2><br><img src="graphics/eng/westham.JPG"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="accordion">
+    <button class="france" id="france">Liga francuska</button>
+        <div class="panelFRA" id="panelFRA" align="center">
+            <ul id="stadiumsFRA" style="list-style-type: none">
+                <li><h2>Stadion Bordeau - Matmut Atlantique</h2><br><img src="graphics/fra/bordeau.jpg"></li>
+                <li><h2>Stadion RC Lens - Stade Bollaert-Delelis</h2><br><img src="graphics/fra/lens.JPG"></li>
+                <li><h2>Stadion Lille OSC - Stade Pierre-Mauroy</h2><br><img src="graphics/fra/lille.JPG"></li>
+                <li><h2>Stadion Olympique Lyonnais - Parc Olympique Lyonnais</h2><br><img src="graphics/fra/lyon.jpg"></li>
+                <li><h2>Stadion Olimpique Marsylia - Stade Velodrome</h2><br><img src="graphics/fra/marsylia.jpg"></li>
+                <li><h2>Stadion FC Nantes - Stade de la Beaujoire</h2><br><img src="graphics/fra/nantes.jpg"></li>
+                <li><h2>Stadion OGC Nice - Allianz Riviera</h2><br><img src="graphics/fra/nice.jpg"></li>
+                <li><h2>Stadion Paris Saint Germain - Parc des Princes</h2><br><img src="graphics/fra/psg.jpg"></li>
+                <li><h2>Stadion AS Saint-Etienne - Stade Geoffroy-Guichard</h2><br><img src="graphics/fra/s_etienne.jpg"></li>
+                <li><h2>Stadion Toulouse FC - Stadium Muncipal</h2><br><img src="graphics/fra/touluse.JPG"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="accordion">
+    <button class="spain" id="spain">Liga hiszpańska</button>
+        <div class="panelSPA" id="panelSPA" align="center">
+            <ul id="stadiumsSPA" style="list-style-type: none">
+                <li><h2>Stadion Atletico Madryt - Wanda Matropolitano</h2><br><img src="graphics/esp/atletico.jpg"></li>
+                <li><h2>Stadion FC Barcelona - Camp Nou</h2><br><img src="graphics/esp/barcelona.jpg"></li>
+                <li><h2>Stadion Realu Betis - Benito Villamarin</h2><br><img src="graphics/esp/betis.jpg"></li>
+                <li><h2>Stadion Athletic Bilbao - San Mames</h2><br><img src="graphics/esp/bilbao.jpg"></li>
+                <li><h2>Stadion Las Palmas - Gran Canaria</h2><br><img src="graphics/esp/las_palmas.jpg"></li>
+                <li><h2>Stadion Realu Madryt - Estadio Santiago Bernabeu</h2><br><img src="graphics/esp/real.jpg"></li>
+                <li><h2>Stadion FC Sevilla - Ramon Sanchez Pizjuan</h2><br><img src="graphics/esp/sevilla.jpg"></li>
+                <li><h2>Stadion Realu Sociedad - Anoeta</h2><br><img src="graphics/esp/sociedad.jpg"></li>
+                <li><h2>Stadion Levante UD - Ciutat de Valencia</h2><br><img src="graphics/esp/valencia.JPG"></li>
+                <li><h2>Stadion Villarrealu - Estadio de la Ceramica</h2><br><img src="graphics/esp/villareal.jpg"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="accordion">
+    <button class="germany" id="germany">Liga niemiecka</button>
+        <div class="panelGER" id="panelGER" align="center">
+            <ul id="stadiumsGER" style="list-style-type: none">
+                <li><h2>Stadion Borussii Dortmund - Signal Iduna Park</h2><br><img src="graphics/ger/borussia.jpg"></li>
+                <li><h2>Stadion Fortuny Dusseldorf - Esprit Arena</h2><br><img src="graphics/ger/dusseldorf.jpg"></li>
+                <li><h2>Stadion Eintracht Frankfurt - Commerzbank-Arena</h2><br><img src="graphics/ger/eintracht.jpg"></li>
+                <li><h2>Stadion Hamburgera SV - Volksparkstadion</h2><br><img src="graphics/ger/hamburg.jpg"></li>
+                <li><h2>Stadion Herthy Berlin - Olympiastadion Berlin</h2><br><img src="graphics/ger/hertha.JPG"></li>
+                <li><h2>Stadion Bayernu Monachium - Allianz Arena</h2><br><img src="graphics/ger/monachium.jpg"></li>
+                <li><h2>Stadion Borussii Moenchengladbach - Stadion im Borussia-Park</h2><br><img src="graphics/ger/monchengladbach.jpg"></li>
+                <li><h2>Stadion 1. FC Nurnberg - Max-Morlock-Stadion</h2><br><img src="graphics/ger/nurnberg.jpg"></li>
+                <li><h2>Stadion FC Schalke 04 - Veltins-Arena</h2><br><img src="graphics/ger/schalke.jpg"></li>
+                <li><h2>Stadion VfB Stuttgart - Mercedes-Benz Arena</h2><br><img src="graphics/ger/stuttgart.jpg"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="accordion">
+    <button class="poland" id="poland">Liga polska</button>
+        <div class="panelPOL" id="panelPOL" align="center">
+            <ul id="stadiumsPOL" style="list-style-type: none">
+                <li><h2>Stadion Jagielloni Białystok - Stadion Miejski w Białymstoku</h2><br><img src="graphics/pol/bialystok.jpg"></li>
+                <li><h2>Stadion Zawiszy Bodgoszcz - Stadion im. Zdzisława Krzyszkowiaka</h2><br><img src="graphics/pol/bydgoszcz.jpg"></li>
+                <li><h2>Stadion Cracovii Kraków - Stadion Cracovii im. Józefa Piłsudzkiego</h2><br><img src="graphics/pol/cracovia.jpg"></li>
+                <li><h2>Stadion Lechii Gdańsk - Stadion Energa Gdańsk</h2><br><img src="graphics/pol/gdansk.jpeg"></li>
+                <li><h2>Stadion Legii Warszawa - Stadak ion Wojska Polskiego</h2><br><img src="graphics/pol/legia.JPG"></li>
+                <li><h2>Stadion Lecha Poznań - INEA Stadion</h2><br><img src="graphics/pol/poznan.jpg"></li>
+                <li><h2>Stadion Pogoni Szczecin - Stadion im. Floriana Krygiera</h2><br><img src="graphics/pol/szczecin.jpg"></li>
+                <li><h2>Stadion Wisły Kraków - Stadion Miejski w Krakowie</h2><br><img src="graphics/pol/wisla.jpg"></li>
+                <li><h2>Stadion Śląska Wrocław - Stadion Miejski we Wrocławiu</h2><br><img src="graphics/pol/wroclaw.jpg"></li>
+                <li><h2>Stadion Górnika Zabrze - Stadion im. Ernesta Pohla</h2><br><img src="graphics/pol/zabrze.jpg"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="accordion">
+    <button class="italy" id="italy">Liga włoska</button>
+        <div class="panelITA" id="panelITA" align="center">
+            <ul id="stadiumsITA" style="list-style-type: none">
+                <li><h2>Stadion Bari - Stadio San Nicola</h2><br><img src="graphics/ita/bari.jpg"></li>
+                <li><h2>Stadion Bolognii - Stadio Renato Dall'Ara</h2><br><img src="graphics/ita/bologna.JPG"></li>
+                <li><h2>Stadion Fiorentiny - Stadio Artemio Franchi</h2><br><img src="graphics/ita/fiorentina.jpg"></li>
+                <li><h2>Stadion Genoi & Sampdorii - Stadio Luigi Ferraris</h2><br><img src="graphics/ita/genoa.jpg"></li>
+                <li><h2>Stadion Juventusu Turyn - Allianz Stadium</h2><br><img src="graphics/ita/juventus.jpg"></li>
+                <li><h2>Stadion Lecce - Stadio Via del Mare</h2><br><img src="graphics/ita/lecce.jpg"></li>
+                <li><h2>Stadion AC Milanu & Interu Mediolan - San Siro</h2><br><img src="graphics/ita/milan.jpg"></li>
+                <li><h2>Stadion Napoli - Stadio San Paolo</h2><br><img src="graphics/ita/napoli.jpg"></li>
+                <li><h2>Stadion AS Romy & Lazio Rzym - Stadio Olimpico</h2><br><img src="graphics/ita/roma.jpg"></li>
+                <li><h2>Stadion Chievo Verony - Stadio Marc'Antonio Bentegodi</h2><br><img src="graphics/ita/verona.jpeg"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="accordion">
+    <button class="world" id="world">Informacje zbiorcze (tabela)</button>
+        <div class="table">
+            <table id="myTable" class="tablesorter"></table>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
